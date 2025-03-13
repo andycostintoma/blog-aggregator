@@ -34,12 +34,17 @@ Run the following command to apply database migrations:
 goose -dir sql/schema postgres "postgres://postgres:postgres@localhost:5432/gator" up
 ```
 
-### 3. Build the Project
+### 3. Build the Project or Install it
 
-Compile the application:
+To compile the application:
 
 ```sh
 go build 
+```
+
+To install the application:
+```sh
+go install github.com/andycostintoma/blog-aggregator
 ```
 
 ### 4. Update Configuration
